@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Orcales - Portfolio</title>
+    <!-- Include Tailwind CSS from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="images//logo-invert.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+
+    <style>
+        @keyframes appear {
+            from {
+                opacity: 0;
+                transform: translateX(0px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0px);
+            }
+        }
+
+        .scroll {
+            animation: appear linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 40%;
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+
+    <!-- Navigation -->
+    <header class="bg-white text-black py-4 md:py-6 mb-0 shadow-sm">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="flex items-center">
+                <img src="images//logo.png" style="height: 30px; width: 30px;" alt="Logo">
+                <div class="text-xl font-semibold ml-2 hover:text-yellow-700">Jems.</div>
+            </div>
+
+            <nav>
+                <ul class="flex font-semibold space-x-8">
+                    <li><a href="#" class="hover:text-yellow-700">Home</a></li>
+                    <li><a href="#about" class="hover:text-yellow-700">About</a></li>
+                    <li><a href="#journey" class="hover:text-yellow-700">Journey</a></li>
+                    <li><a href="#skill" class="hover:text-yellow-700">Skills</a></li>
+                    <li><a href="#projects" class="hover:text-yellow-700">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-700">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Main Content -->
+    <main id="#" class="container mx-auto py-8 px-4 font-poppins">
+        <section class="mb-12 flex flex-col md:flex-row items-start md:items-center py-4">
+            <!-- Column for social media icons -->
+            <div class="socmed md:w-1/8 flex flex-col items-left mb-4 md:mb-0 md:ml-2 md:mr-2">
+                <!-- Social media icons -->
+                <a href="https://www.facebook.com/jam.exee" target="_blank" class="mb-6">
+                    <img src="images//facebook.png" alt="Facebook" class="h-5 w-auto">
+                </a>
+                <a href="https://www.instagram.com/_itmejam/" target="_blank" class="mb-6">
+                    <img src="images//instagram.png" alt="Instagram" class="h-5 w-auto">
+                </a>
+                <a href="https://twitter.com/_itmejam" target="_blank" class="mb-6">
+                    <img src="images//twitter.png" alt="Twitter" class="h-5 w-auto">
+                </a>
+                <a href="https://github.com/teaahgou" target="_blank" class="mb-6">
+                    <img src="images//github.png" alt="Github" class="h-5 w-auto">
+                </a>
+                <a href="www.linkedin.com/in/james-orcales" target="_blank" class="mb-6">
+                    <img src="images//linkedin.png" alt="LinkedIn" class="h-5 w-auto">
+                </a>
+            </div>
+
+            <!-- Column for text content -->
+            <div class="description md:w-1/2 mb-4 md:mb-0 ml-0 md:ml-4">
+                <h1 class="text-6xl font-semibold mb-4">James Orcales</h1>
+                <h2 id="role" class="text-3xl text-yellow-700 mb-2">Web Developer</h2>
+                <p class="text-lg text-gray-500 mb-6">Computer Science graduate passionate about merging technology with
+                    creativity. Experienced in Front-End and Back-End Development, with strong <span id="skills">UI/UX
+                        design skills</span>.</p>
+
+                <!-- Resume Button -->
+                <a href="JamesOrcales-RESUME.pdf" target="_blank"
+                    class="inline-flex items-center bg-gray-800 text-white px-7 py-4 rounded-2xl shadow-lg hover:bg-yellow-700 transition duration-200">
+                    <span class="transition duration-200">View Resume</span>
+                    <img src="images//right.png" alt="Right Arrow"
+                        class="h-4 w-4 ml-2 transition duration-200 transform hover:translate-x-1">
+                </a>
+            </div>
+
+            <!-- Column for your image -->
+            <div class="box">
+                <div class="content relative overflow-hidden rounded-full object-cover">
+                    <img src="images//avatar.png" alt="Your Picture">
+                </div>
+            </div>
+        </section>
+
+        <div class="container mx-auto">
+            <div class="wrapper flex overflow-x-auto">
+                <div class="logo flex space-x-0.5">
+                    <img src="images//adobe-photoshop-logo.png" class="item item1" alt="Logo 1">
+                    <img src="images//atom.png" class="item item2" alt="Logo 2">
+                    <img src="images//bootstrap.png" class="item item3" alt="Logo 3">
+                    <img src="images//css-3.png" class="item item4" alt="Logo 4">
+                    <img src="images//java-script.png" class="item item5" alt="Logo 5">
+                    <img src="images//tool.png" class="item item6" alt="Logo 6">
+                    <img src="images//sass.png" class="item item7" alt="Logo 7">
+                    <img src="images//tailwind.png" class="item item8" alt="Logo 8">
+                </div>
+            </div>
+        </div>
+
+
+        <section id="about" class="scroll mb-24 mt-12 flex flex-col md:flex-row items-start md:items-center py-10">
+            <!-- Column for image -->
+            <div class="md:w-1/2 mb-4 md:mb-0 ml-0 md:ml-2 md:mr-2">
+                <img src="images//jems.jpg" alt="Your Picture"
+                    class="grad rounded-lg h-80 w-80 object-cover shadow-xl">
+            </div>
+
+            <!-- Column for text content -->
+            <div class="about md:w-1/2 mb-4 md:mb-0 ml-0 md:ml-8 mb-8">
+                <h2 class="about-me text-5xl font-bold mb-4">Hi, I'm <span class="text-yellow-700">James.</span></h2>
+                <p class="about-info text-xl text-gray-600 text-justify">A fresh graduate from Bicol University
+                    passionate about
+                    merging
+                    technology with
+                    creativity. Experienced in Front-End and Back-End Development, with a strong UI/UX design
+                    proficiency and
+                    skills in Photoshop and Video Editing. Specialized in Front-End development during my academic
+                    journey,
+                    focusing on creating compelling user interfaces. As an intern at Link Realty Inc., I transitioned
+                    from I.T.
+                    intern to web designer and full-stack web developer, enhancing both my design and development
+                    capabilities
+                    while bolstering the company's online presence in real estate. Also served as the full-stack
+                    developer for
+                    our thesis project, contributing to its successful implementation.</p>
+            </div>
+        </section>
+
+
+        <!-- Journey Section -->
+        <section id="journey" class="scroll mb-32">
+            <h2 class="text-5xl text-center font-bold mb-8">My <span class="text-yellow-700">Journey.</span></h2>
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Left Column: Education -->
+                <div class="education-box bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-3xl font-semibold mb-3">Education</h3>
+                    <div class="mb-4 education-item" data-toggle="education-bu">
+                        <h4 class="text-xl text-gray-700 font-semibold relative cursor-pointer hover:text-yellow-800">
+                            Bicol University
+                            <svg class="h-5 w-5 inline-block absolute right-0 top-1/2 transform -translate-y-1/2 transition-transform duration-300"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10 12a1 1 0 0 1-.707-.293l-4-4a1 1 0 1 1 1.414-1.414L10 9.586l3.293-3.293a1 1 0 1 1 1.414 1.414l-4 4A1 1 0 0 1 10 12z" />
+                            </svg>
+                        </h4>
+                        <div id="education-bu" class="hidden">
+                            <p class="text-yellow-800">Bachelor of Science in Computer Science</p>
+                            <p class="text-gray-600">2020-2024</p>
+                            <ul class="text-gray-600 list-disc ml-8">
+                                <li>Dean's Lister 2022-2023</li>
+                                <li>Dean's Lister 2023-2024</li>
+                                <li>Artist - Scientia, The Official Student Publication of the Bicol University College
+                                    of
+                                    Science 2020 - 2024</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-4 education-item" data-toggle="education-lp">
+                        <h4 class="text-xl text-gray-700 font-semibold relative cursor-pointer hover:text-yellow-800">
+                            La Purisima National High School
+                            <svg class="h-5 w-5 inline-block absolute right-0 top-1/2 transform -translate-y-1/2 transition-transform duration-300"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10 12a1 1 0 0 1-.707-.293l-4-4a1 1 0 1 1 1.414-1.414L10 9.586l3.293-3.293a1 1 0 1 1 1.414 1.414l-4 4A1 1 0 0 1 10 12z" />
+                            </svg>
+                        </h4>
+                        <div id="education-lp" class="hidden">
+                            <p class="text-yellow-800">TVL - Computer System Servicing</p>
+                            <p class="text-gray-600">2018-2020</p>
+                            <ul class="text-gray-600 list-disc ml-8">
+                                <li>With Honors 2018-2020</li>
+                                <li>Academic & Extra-Curricular Achiever 2018-2020</li>
+                                <li>Artist - The Golden Scribe, The Official Student Publication of the Bicol University
+                                    College of Science 2018-2020</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Experience -->
+                <div class="experience-box bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-3xl font-semibold mb-3">Experience</h3>
+                    <div class="mb-4 experience-item" data-toggle="experience-link">
+                        <h4 class="text-xl text-gray-700 font-semibold relative cursor-pointer hover:text-yellow-800">
+                            A Link Realty Inc.
+                            <svg class="h-5 w-5 inline-block absolute right-0 top-1/2 transform -translate-y-1/2 transition-transform duration-300"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10 12a1 1 0 0 1-.707-.293l-4-4a1 1 0 1 1 1.414-1.414L10 9.586l3.293-3.293a1 1 0 1 1 1.414 1.414l-4 4A1 1 0 0 1 10 12z" />
+                            </svg>
+                        </h4>
+                        <div id="experience-link" class="hidden">
+                            <p class="text-yellow-800">Web Designer & Full-Stack Developer</p>
+                            <p class="text-gray-600">Internship: 2022 - 2023</p>
+                            <ul class="text-gray-600 list-disc ml-8">
+                                <li>Designing and prototyping of a real estate website using Figma.</li>
+                                <li>Developed the company's website using Wordpress, HTML, and CSS.</li>
+                                <li>Developed the back-end and uploaded the company's data.</li>
+                            </ul>
+                            <div class="flex items-center mt-2">
+                                <img src="images//wordpress-logo.png" alt="WordPress Logo" class="h-5 w-5 ml-2"
+                                    title="WordPress">
+                                <img src="images//html.png" alt="HTML5 Logo" class="h-5 w-5 ml-2"
+                                    title="HTML5">
+                                <img src="images//css-3.png" alt="CSS3 Logo" class="h-5 w-5 ml-2" title="CSS3">
+                                <img src="images//tool.png" alt="Figma Logo" class="h-5 w-5 ml-2"
+                                    title="Figma">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-4 experience-item" data-toggle="experience-telechurn">
+                        <h4 class="text-xl text-gray-700 font-semibold relative cursor-pointer hover:text-yellow-800">
+                            TeleChurn Project
+                            <svg class="h-5 w-5 inline-block absolute right-0 top-1/2 transform -translate-y-1/2 transition-transform duration-300"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10 12a1 1 0 0 1-.707-.293l-4-4a1 1 0 1 1 1.414-1.414L10 9.586l3.293-3.293a1 1 0 1 1 1.414 1.414l-4 4A1 1 0 0 1 10 12z" />
+                            </svg>
+                        </h4>
+                        <div id="experience-telechurn" class="hidden">
+                            <p class="text-yellow-800">Web Designer & Full-Stack Developer</p>
+                            <p class="text-gray-600">Project: 2023 - 2024</p>
+                            <ul class="text-gray-600 list-disc ml-8">
+                                <li>Designing and prototyping of our prediction website using Figma and Photoshop.</li>
+                                <li>Developed the implemented the design of website using HTML, CSS, and JavaScript.
+                                </li>
+                                <li>Helped develop the back-end and integrate the deep learning research into our
+                                    website using
+                                    Python.</li>
+                            </ul>
+                            <div class="flex items-center mt-2">
+                                <img src="images//adobe-photoshop-logo.png" alt="Photoshop Logo"
+                                    class="h-5 w-5 ml-2" title="Photoshop">
+                                <img src="images//tool.png" alt="Figma Logo" class="h-5 w-5 ml-2"
+                                    title="Figma">
+                                <img src="images//html.png" alt="HTML5 Logo" class="h-5 w-5 ml-2"
+                                    title="HTML5">
+                                <img src="images//css-3.png" alt="CSS3 Logo" class="h-5 w-5 ml-2" title="CSS3">
+                                <img src="images//java-script.png" alt="JavaScript Logo" class="h-5 w-5 ml-2"
+                                    title="JavaScript">
+                                <img src="images//python.png" alt="Python Logo" class="h-5 w-5 ml-2"
+                                    title="Python">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <style>
+            .hidden {
+                display: none;
+            }
+        </style>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const educationItems = document.querySelectorAll('.education-item');
+                const experienceItems = document.querySelectorAll('.experience-item');
+
+                educationItems.forEach(item => {
+                    item.addEventListener('click', function () {
+                        const targetId = this.getAttribute('data-toggle');
+                        const targetElement = document.getElementById(targetId);
+                        if (targetElement.classList.contains('hidden')) {
+                            targetElement.classList.remove('hidden');
+                        } else {
+                            targetElement.classList.add('hidden');
+                        }
+                    });
+                });
+
+                experienceItems.forEach(item => {
+                    item.addEventListener('click', function () {
+                        const targetId = this.getAttribute('data-toggle');
+                        const targetElement = document.getElementById(targetId);
+                        if (targetElement.classList.contains('hidden')) {
+                            targetElement.classList.remove('hidden');
+                        } else {
+                            targetElement.classList.add('hidden');
+                        }
+                    });
+                });
+            });
+        </script>
+
+
+
+        <!-- Skills Section -->
+        <section id="skill" class="mb-32 scroll ">
+            <h2 class="text-5xl text-center font-bold mb-8">Skills <span class="text-yellow-700">Equipped.</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Backend Skills Box -->
+                <div
+                    class="skills-box bg-gray-100 p-6 rounded-lg shadow-md transition-transform duration-300 transform hover:scale-105">
+                    <h3 class="text-xl text-center font-semibold mb-3">Backend Development</h3>
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                        <li class="flex items-center">
+                            <img src="images//python.png" alt="Python Logo" class="h-8 w-8 mr-2">
+                            <span>Python</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//node.png" alt="Node.js Logo" class="h-8 w-7 mr-2">
+                            <span>Node.js</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//express.png" alt="Express Logo" class="h-4 w-6 mr-2">
+                            <span>Express</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//mysql.png" alt="MySQL Logo" class="h-8 w-8 mr-2">
+                            <span>MySQL</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//java-script.png" alt="JavaScript Logo" class="h-7 w-8 mr-2">
+                            <span>JavaScript</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//web.png" alt="PHP Logo" class="h-8 w-8 mr-2">
+                            <span>PHP</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//fire.png" alt="Firebase Logo" class="h-10 w-7 mr-2">
+                            <span>Firebase</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Frontend Skills Box -->
+                <div
+                    class="skills-box bg-gray-100 p-6 rounded-lg shadow-md transition-transform duration-300 transform hover:scale-105">
+                    <h3 class="text-xl text-center font-semibold mb-6">Frontend Development</h3>
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                        <li class="flex items-center">
+                            <img src="images//html.png" alt="HTML5 Logo" class="h-8 w-8 mr-2">
+                            <span>HTML5</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//css-3.png" alt="CSS3 Logo" class="h-8 w-8 mr-2">
+                            <span>CSS3</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//java-script.png" alt="JavaScript Logo" class="h-7 w-8 mr-2">
+                            <span>JavaScript</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//atom.png" alt="React Logo" class="h-8 w-8 mr-2">
+                            <span>React</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//bootstrap.png" alt="Bootstrap Logo" class="h-8 w-8 mr-2">
+                            <span>Bootstrap</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//tailwind.png" alt="Tailwind CSS Logo" class="h-8 w-8 mr-2">
+                            <span>Tailwind</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//sass.png" alt="Sass Logo" class="h-8 w-8 mr-2">
+                            <span>Sass</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//social.png" alt="Git Logo" class="h-8 w-8 mr-2">
+                            <span>Git</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//next.png" alt="Next.js Logo" class="h-8 w-8 mr-2">
+                            <span>Next.js</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//node.png" alt="Node.js Logo" class="h-8 w-7 mr-2">
+                            <span>Node.js</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Other Tools Box -->
+                <div
+                    class="skills-box bg-gray-100 p-6 rounded-lg shadow-md transition-transform duration-300 transform hover:scale-105">
+                    <h3 class="text-xl text-center font-semibold mb-3">Other Tools for Development</h3>
+                    <ul class="grid grid-cols-2 gap-4">
+                        <li class="flex items-center">
+                            <img src="images//tool.png" alt="Figma Logo" class="h-8 w-8 mr-2">
+                            <span>Figma</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//adobe-photoshop-logo.png" alt="Photoshop Logo"
+                                class="h-8 w-8 mr-2">
+                            <span>Photoshop</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//code.png" alt="VS Code Logo" class="h-8 w-8 mr-2">
+                            <span>VS Code</span>
+                        </li>
+                        <li class="flex items-center">
+                            <img src="images//github.png" alt="GitHub Logo" class="h-8 w-8 mr-2">
+                            <span>Github</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Project Section -->
+        <section id="projects" class="scroll mb-32">
+            <h2 class="text-5xl font-bold mb-12"><span class="text-yellow-700">Projects</span> made so far.</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="relative">
+                    <div class="overflow-hidden bg-gray-200 h-48 md:h-64 project">
+                        <!-- Placeholder for project logo or image -->
+                        <img src="images\faceopolice.png" alt="Project 1"
+                            class="h-full w-full transform scale-100 transition-transform duration-300 hover:scale-110 ">
+                    </div>
+                    <div
+                        class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100 bg-black bg-opacity-70">
+                        <div class="text-center text-white p-4">
+                            <h3 class="text-xl font-semibold mb-2">FaceOPolice</h3>
+                            <p class="text-gray-200 mb-4">A Desktop Application dedicated for the Law Enforcement. A
+                                Forensic Face Construction for Criminal Recognition</p>
+                            <a href="#"
+                                class="text-blue-300 hover:text-blue-100 border-b border-blue-300 hover:border-blue-100">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="overflow-hidden bg-gray-200 h-48 md:h-64 project">
+                        <!-- Placeholder for project logo or image -->
+                        <img src="images\telechurn.png" alt="Project 2"
+                            class="h-full w-full transform scale-100 transition-transform duration-300 hover:scale-110">
+                    </div>
+                    <div
+                        class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100 bg-black bg-opacity-70">
+                        <div class="text-center text-white p-4">
+                            <h3 class="text-xl font-semibold mb-2">TeleChurn</h3>
+                            <p class="text-gray-200 mb-4">A Web Application dedicated for Telco Companies. A system that
+                                can predict whether a customer will cancel subscription or not.</p>
+                            <a href="#"
+                                class="text-blue-300 hover:text-blue-100 border-b border-blue-300 hover:border-blue-100">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="overflow-hidden bg-gray-200 h-48 md:h-64 project">
+                        <!-- Placeholder for project logo or image -->
+                        <img src="images\alink.png" alt="Project 2"
+                            class="h-full w-full transform scale-100 transition-transform duration-300 hover:scale-110">
+                    </div>
+                    <div
+                        class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100 bg-black bg-opacity-70">
+                        <div class="text-center text-white p-4">
+                            <h3 class="text-xl font-semibold mb-2">A Link Realty Inc.</h3>
+                            <p class="text-gray-200 mb-4">A Web Application for a start-up real estate company called A
+                                Link Realty Inc.</p>
+                            <a href="https://alinkrealtyinc.com/"
+                                class="text-blue-300 hover:text-blue-100 border-b border-blue-300 hover:border-blue-100">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="overflow-hidden bg-gray-200 h-48 md:h-64 project">
+                        <!-- Placeholder for project logo or image -->
+                        <img src="images\trackmate.png" alt="Project 2"
+                            class="h-full w-full transform scale-100 transition-transform duration-300 hover:scale-110">
+                    </div>
+                    <div
+                        class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100 bg-black bg-opacity-70">
+                        <div class="text-center text-white p-4">
+                            <h3 class="text-xl font-semibold mb-2">Trackmate</h3>
+                            <p class="text-gray-200 mb-4">A UI/UX Design for a Delivery Tracking App. </p>
+                            <a href="https://www.figma.com/proto/6wBnIzkThiWmjPWMsKuJLl/Delivery-Tracking-App?node-id=0-1&t=YXcoS8UC2J0cX5dh-1"
+                                class="text-blue-300 hover:text-blue-100 border-b border-blue-300 hover:border-blue-100">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="overflow-hidden bg-gray-200 h-48 md:h-64 project">
+                        <!-- Placeholder for project logo or image -->
+                        <img src="images\faceopolice-ui.png" alt="Project 2"
+                            class="h-full w-full transform scale-100 transition-transform duration-300 hover:scale-110">
+                    </div>
+                    <div
+                        class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100 bg-black bg-opacity-70">
+                        <div class="text-center text-white p-4">
+                            <h3 class="text-xl font-semibold mb-2">FaceOPolice UI/UX Design</h3>
+                            <p class="text-gray-200 mb-4">My UI/UX Design for our Desktop Application, FaceOPolice.</p>
+                            <a href="https://www.figma.com/design/hqeqlHAmysgYfiZCzziV2w/FaceOPolice?node-id=0-1&t=2fEYUWCcGK8G6IXp-1"
+                                class="text-blue-300 hover:text-blue-100 border-b border-blue-300 hover:border-blue-100">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="overflow-hidden bg-gray-200 h-48 md:h-64 project">
+                        <!-- Placeholder for project logo or image -->
+                        <img src="images\alink-ui.png" alt="Project 2"
+                            class="h-full w-full transform scale-100 transition-transform duration-300 hover:scale-110">
+                    </div>
+                    <div
+                        class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100 bg-black bg-opacity-70">
+                        <div class="text-center text-white p-4">
+                            <h3 class="text-xl font-semibold mb-2">A Link Realty Inc. UI/UX Design</h3>
+                            <p class="text-gray-200 mb-4">My UI/UX Design for the company where I finished my internship.</p>
+                            <a href="https://www.figma.com/proto/9yXFdkxt57nDojW7akByxN/A-LINK-REALTY-INC.?page-id=0%3A1&node-id=22-13&starting-point-node-id=22%3A13&t=3mSteno7IDkBKAhp-1"
+                                class="text-blue-300 hover:text-blue-100 border-b border-blue-300 hover:border-blue-100">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="overflow-hidden bg-gray-200 h-48 md:h-64 project">
+                        <!-- Placeholder for project logo or image -->
+                        <img src="images\telechurn-ui.png" alt="Project 2"
+                            class="h-full w-full transform scale-100 transition-transform duration-300 hover:scale-110">
+                    </div>
+                    <div
+                        class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100 bg-black bg-opacity-70">
+                        <div class="text-center text-white p-4">
+                            <h3 class="text-xl font-semibold mb-2">TeleChurn UI/UX Design</h3>
+                            <p class="text-gray-200 mb-4">My UI/UX Design for our Thesis Project, TeleChurn. </p>
+                            <a href="https://www.figma.com/proto/6wBnIzkThiWmjPWMsKuJLl/Delivery-Tracking-App?node-id=0-1&t=YXcoS8UC2J0cX5dh-1"
+                                class="text-blue-300 hover:text-blue-100 border-b border-blue-300 hover:border-blue-100">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="text-center py-16 text-black">
+            <h2 class="text-5xl font-bold mb-12">Get In <span class="text-yellow-700">Touch.</span></h2>
+            <!-- Contact form or contact information -->
+            <div class="mt-4">
+                <!-- Email address with overline and underline -->
+                <h2 class="text-5xl font-bold mb-4 relative">
+                    <a href="mailto:jamesbarela.orcales@bicol-u.edu.ph" class="relative z-10 mb-12">
+                        <span
+                            class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-transparent to-yellow-700 transform -translate-y-full mb-4"></span>
+                        <span
+                            class="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-yellow-700 via-yellow-700 to-transparent transform translate-y-full hays"></span>
+                        jamesbarela.orcales@bicol-u.edu.ph
+                    </a>
+                </h2>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="flex items-center justify-center mt-12">
+                <a href="https://www.facebook.com/jam.exee" target="_blank" class="mx-4">
+                    <img src="images//facebook.png" alt="Facebook" class="h-8 w-auto">
+                </a>
+                <a href="https://www.instagram.com/_itmejam/" target="_blank" class="mx-4">
+                    <img src="images//instagram.png" alt="Instagram" class="h-8 w-auto">
+                </a>
+                <a href="https://twitter.com/_itmejam" target="_blank" class="mx-4">
+                    <img src="images//twitter.png" alt="Twitter" class="h-8 w-auto">
+                </a>
+                <a href="https://github.com/teaahgou" target="_blank" class="mx-4">
+                    <img src="images//github.png" alt="Github" class="h-8 w-auto">
+                </a>
+                <a href="www.linkedin.com/in/james-orcales" target="_blank" class="mx-4">
+                    <img src="images//linkedin.png" alt="LinkedIn" class="h-8 w-auto">
+                </a>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white text-gray-600 text-center py-4">
+        <p>&copy; 2024 James Orcales. All rights reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
